@@ -1,0 +1,21 @@
+section h1 {
+    color: red;
+}
+section p {
+    font-size: large;
+}
+
+section {
+    text-align: unset;
+}
+
+.recommend-image {
+    text-align: left;
+}
+
+.movie-image {
+    width: 600px;
+  height: 700px;
+  object-fit: cover; 
+  border-radius: 8px;
+}
