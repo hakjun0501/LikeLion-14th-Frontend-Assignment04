@@ -1,7 +1,7 @@
-function Header({ title }) {
+function Header() {
   return (
-    <header>
-      <h1>{title}</h1>
+    <header style={{textAlign: 'left'}}>
+      <h1>학준이의 영화소개</h1>
     </header>
   );
 }

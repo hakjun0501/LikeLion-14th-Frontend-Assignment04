@@ -1,18 +1,18 @@
 
-import '../styles/components/footer.css';
-
-function Footer({ list }) {
+function Footer({ title,des,category }) {
     return (
-        <footer>
-                {list.map((item) => (
-                    <li key={item.id}>
-                        <h3>{item.title01}</h3>
-                        <p>{item.ex}</p>
-                        <p>{item.ex2}</p>
-                        <p>{item.ex3}</p>
-                    </li>
-                ))}
-        </footer>
+        <div style={{
+            border: '1px solid #ddd',
+            borderRadius: '8px',
+            padding: '20px',
+            margin: '10px',
+            width: '250px',
+            boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+        }}>
+
+            <h2>{name}</h2>
+            
+        </div>
     );  
 }
 
